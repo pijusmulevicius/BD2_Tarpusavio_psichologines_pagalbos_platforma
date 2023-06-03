@@ -1,5 +1,3 @@
-import 'dart:html';
-import 'dart:js';
 import 'dart:math';
 
 import 'package:comment_tree/comment_tree.dart';

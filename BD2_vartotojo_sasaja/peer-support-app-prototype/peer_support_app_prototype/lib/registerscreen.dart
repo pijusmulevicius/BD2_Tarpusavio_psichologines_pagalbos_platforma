@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'Models/globals.dart';
 import 'Views/Dashboard/Dashboard.dart';
-import 'package:intl/intl.dart';
+
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -70,8 +70,7 @@ class _RegisterState extends State<RegisterScreen> {
                             lastDate: DateTime(2100));
                         if (pickedDate != null) {
                           final DateTime now = pickedDate;
-                          final DateFormat formatter = DateFormat('yyyy-MM-dd');
-                          final String formattedDate = formatter.format(now);
+                          final String formattedDate = pickedDate.year.toString() + '/'+pickedDate.month.toString()+'/'+pickedDate.day.toString();
                           print(formattedDate);
                           dateInput.text = formattedDate;
                         } else {}

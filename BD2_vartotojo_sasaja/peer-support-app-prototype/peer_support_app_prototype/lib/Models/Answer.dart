@@ -1,4 +1,3 @@
-import 'dart:html';
 
 import 'QnACategory.dart';
 import 'ScoreObject.dart';

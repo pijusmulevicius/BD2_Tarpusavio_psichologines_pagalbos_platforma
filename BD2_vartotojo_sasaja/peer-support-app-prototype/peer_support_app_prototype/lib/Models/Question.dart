@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/foundation.dart';
 
 import 'package:peer_support_app_prototype/Models/QnACategory.dart';
